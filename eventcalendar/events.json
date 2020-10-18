@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": 5,
+      "name": "Keikka",
+      "place": "HTML is easy",
+      "starttime": "2020-10-04T11:00:00.000Z",
+      "endtime": "2020-10-04T14:45:42.274Z"
+    },
+    {
+      "name": "Konsertti",
+      "place": "Helsinki",
+      "starttime": "2020-10-12T11:00:00.000Z",
+      "endtime": "2020-10-12T15:00:00.000Z",
+      "id": 6
+    }
+  ]
+}
