@@ -1,17 +1,13 @@
-import React, {useState, useEffect} from 'react';
+import React  from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import parse from 'html-react-parser';
 import Button from '@material-ui/core/Button';
 import moment from 'moment';
 import Card from '@material-ui/core/Card'
-import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
 import 'moment/locale/fi'
-import Collapse from '@material-ui/core/Collapse';
 import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles({

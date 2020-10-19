@@ -19,8 +19,6 @@ import Eventlist from './components/Eventlist'
 function App() {
 
   const [events, setEvents] = useState([])
-  const [next, setNext] = useState("")
-  const [previous, setPrevious] = useState("")  
   const [myevents, setMyevents] = useState([])
 
   
@@ -58,7 +56,7 @@ function App() {
   }
 
   const addNewEvent = (eventObject) => {
-    myevents.filter(e => e.apiId == eventObject.apiId).length < 1 ? 
+    myevents.filter(e => e.apiId === eventObject.apiId).length < 1 ? 
     myeventService      
       .create(eventObject)
       .then(e => {

@@ -1,6 +1,6 @@
 import 'date-fns';
 import React, { useState } from "react";
-import { DatePicker, KeyboardDatePicker } from "@material-ui/pickers";
+import { DatePicker} from "@material-ui/pickers";
 import Button from '@material-ui/core/Button';
 import DateFnsUtils from '@date-io/date-fns';
 import moment from 'moment';
@@ -40,7 +40,6 @@ export default function Eventlist (props) {
                     margin="normal"
                     onChange={setStartDate}
                     animateYearScrolling
-                    margin="normal"
                     KeyboardButtonProps={{
                       'aria-label': 'change date',
                     }}
